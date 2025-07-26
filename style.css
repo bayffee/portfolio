@@ -102,8 +102,8 @@ html {
   background-size:cover;
 }
 body {
-  max-width:800px;
-  margin:25px auto;
+  margin: 0;
+  padding: 0;
 }
 header, #content, footer { 
   background: rgba(0,0,0,.8); 
