@@ -13,7 +13,12 @@ body {
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #FFFFFF;
 }
-
+html, body {
+  background-color: #a9a9a9; /* 好きな色に変えてください */
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 /**
  * Links
  */
