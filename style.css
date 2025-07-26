@@ -11,7 +11,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 /**
@@ -93,7 +93,7 @@ blockquote p:last-child {
 /* Full size background image */
 html, #container, .inner { background-color:transparent;}
 html {
-  background:url(backphoto.jpg) center center no-repeat fixed;
+  background:url(bnackphoto.jpg) center center no-repeat fixed;
   background-size:cover;
 }
 body {
@@ -141,8 +141,4 @@ ul.main-menu li a.active {
   display:block;
 }
 
-#content {
-  margin: 0 auto;
-  padding: 2rem;
-  max-width: 1200px;
-}
+
