@@ -141,4 +141,8 @@ ul.main-menu li a.active {
   display:block;
 }
 
-
+#content {
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 1200px;
+}
