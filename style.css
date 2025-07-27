@@ -85,7 +85,10 @@ ul.main-menu li a.active {
 -------------------------- */
 #hero {
   height: 40vh;
-  background: #999; /* 背景が画像でなければ灰色に */
+  background-image: url('bnackphoto.jpg'); /* ← 好きな画像に変更 */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
