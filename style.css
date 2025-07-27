@@ -9,6 +9,15 @@ html, body {
   font-size: 62.5%; /* 1rem = 10px */
 }
 
+html {
+  background-color: #d3d3d3; /* 背景が画像と重なる時の下地色 */
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 body {
   font-size: 1.5em;
   line-height: 1.6;
