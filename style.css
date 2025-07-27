@@ -11,7 +11,7 @@ html, body {
 
 html {
   background-color: #d3d3d3; /* 背景が画像と重なる時の下地色 */
-  background-image: url('background.jpg');
+  background-image: url('bnackphoto.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
