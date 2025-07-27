@@ -1,165 +1,98 @@
 <!doctype html>
-<html>
+<html lang="ja">
   <head>
-    <!-- Page setup -->
     <meta charset="utf-8">
     <title>Yugo portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="A brief description of your site for search engines">
     <meta name="author" content="Information about the author here">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-   <link rel="icon" type="image/png" href="favicon.png">
-  
-    <!-- Stylesheets -->
-    <!-- Reset default styles and add support for google fonts -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
-   
-    <!-- Custom styles -->
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <!-- スタイル -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
-
-    <!-- Want to add Bootstrap? -->
-    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   </head>
-  
+
   <body>
 
-  <!-- Hero section -->
-  <section id="hero">
-    <div class="hero-content">
-      <h1>Yugo Uno's PORTFOLIO</h1>
-    </div>
-  </section>
+    <!-- Hero section -->
+    <section id="hero">
+      <div class="hero-content">
+        <h1>Yugo Uno's PORTFOLIO</h1>
+      </div>
+    </section>
 
-  <!-- ナビゲーション -->
-  <nav class="main-nav">
-    <ul class="main-menu">
-      <li><a href="#home">HOME</a></li>
-      <li><a href="#about">ABOUT</a></li>
-      <li><a href="#contact">CONTACT</a></li>
-    </ul>
-  </nav>
+    <!-- ナビゲーション -->
+    <nav class="main-nav">
+      <ul class="main-menu">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
 
-  <!-- コンテンツ -->
-  <div id="container">
-    <div class="inner">
-      <div id="content"> 
-        <!-- 以下省略（home / about / contact） -->
-
-    <header id="header">
-      <img src="logo.png"style="display: none;">
-      <h1></h1>
-      
-      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
-                      
-    </header>
-   
+    <!-- コンテンツ -->
     <div id="container">
-      <div class="inner">
-        <div id="content"> 
-          
-          <div id="home" class="content-region hide">
-            <h2></h2>
-            <p></p>はじめまして。日本大学　生産工学部　数理情報工学科3年の宇野有琥と申します。</p>
-             <p>現在はソフトウェア開発やデータ分析に興味があり、大学の講義を通じてPythonやc言語について学んでいます。</p>
-            <p>就職活動を通じて、より実践的な開発スキルやチームでの経験を積みたいと考えています。</p>
-            
-            </p>
-          </div>
-          
-          <div id="about" class="content-region hide">
-  <h2></h2>
-  <table border="1" cellspacing="0" cellpadding="8">
-    <thead>
-      <tr>
-        <th>技術</th>
-        <th>経験年数</th>
-        <th>スキル（10点満点）</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>C言語</td>
-        <td>3年</td>
-        <td>7/10</td>
-      </tr>
-      <tr>
-        <td>Java</td>
-        <td>2年</td>
-        <td>4/10</td>
-      </tr>
-      <tr>
-        <td>MySQL</td>
-        <td>2年</td>
-        <td>4/10</td>
-      </tr>
-      <tr>
-        <td>Python</td>
-        <td>2年</td>
-        <td>5/10</td>
-      </tr>
-      <tr>
-        <td>VB.NET</td>
-        <td>1年</td>
-        <td>6/10</td>
-      </tr>
-      <tr>
-        <td>HTML5</td>
-        <td>1年</td>
-        <td>3/10</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+      <div id="content"> 
+        <div id="home" class="content-region hide">
+          <h2>自己紹介</h2>
+          <p>はじめまして。日本大学 生産工学部 数理情報工学科3年の宇野有琥と申します。</p>
+          <p>現在はソフトウェア開発やデータ分析に興味があり、大学の講義を通じてPythonやC言語について学んでいます。</p>
+          <p>就職活動を通じて、より実践的な開発スキルやチームでの経験を積みたいと考えています。</p>
+        </div>
 
-          
-          <div id="contact" class="content-region hide">
-            <h2></h2>
-            <p>ご連絡は以下のメールアドレスまでお願いします。</p>
-  <p>
-    <a href="mailto:your.email@example.com">bayffee11@gmail.com</a>
-            </p>
-          </div>
-          
+        <div id="about" class="content-region hide">
+          <h2>スキル一覧</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>技術</th>
+                <th>経験年数</th>
+                <th>スキル（10点満点）</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>C言語</td><td>3年</td><td>7/10</td></tr>
+              <tr><td>Java</td><td>2年</td><td>4/10</td></tr>
+              <tr><td>MySQL</td><td>2年</td><td>4/10</td></tr>
+              <tr><td>Python</td><td>2年</td><td>5/10</td></tr>
+              <tr><td>VB.NET</td><td>1年</td><td>6/10</td></tr>
+              <tr><td>HTML5</td><td>1年</td><td>3/10</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div id="contact" class="content-region hide">
+          <h2>連絡先</h2>
+          <p>ご連絡は以下のメールアドレスまでお願いします。</p>
+          <p><a href="mailto:bayffee11@gmail.com">bayffee11@gmail.com</a></p>
         </div>
       </div>
     </div>
 
-     <footer>  
-      2025
+    <footer>
+      &copy; 2025 Yugo Uno
     </footer>
-    
-    <!-- Load additional JS scripts here -->
+
     <script>
-  // メニュークリック時に表示を切り替える処理
-  document.querySelectorAll('.main-menu a').forEach(link => {
-    link.addEventListener('click', function(e) {
-      e.preventDefault();
-      const targetId = this.getAttribute('href').substring(1); // "#home" → "home"
-      const regions = document.querySelectorAll('.content-region');
-      
-      // すべて非表示に
-      regions.forEach(region => region.classList.add('hide'));
+      document.querySelectorAll('.main-menu a').forEach(link => {
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('href').substring(1);
+          document.querySelectorAll('.content-region').forEach(r => r.classList.add('hide'));
+          const target = document.getElementById(targetId);
+          if (target) target.classList.remove('hide');
+        });
+      });
 
-      // 対象だけ表示
-      const target = document.getElementById(targetId);
-      if (target) {
-        target.classList.remove('hide');
-      }
-    });
-  });
-
-  // 最初はHOMEを表示
-  document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('.content-region').forEach(region => region.classList.add('hide'));
-    const home = document.getElementById('home');
-    if (home) home.classList.remove('hide');
-  });
-</script>
-
-    
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.content-region').forEach(r => r.classList.add('hide'));
+        document.getElementById('home')?.classList.remove('hide');
+      });
+    </script>
   </body>
 </html>
