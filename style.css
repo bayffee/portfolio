@@ -2,22 +2,23 @@
    ベース設定
 -------------------------- */
 html, body {
-  font-size: 62.5%;
   margin: 0;
   padding: 0;
-  background-color: #d3d3d3; /* 全体背景を灰色に */
+  background-color: #d3d3d3; /* ★ 全体背景を灰色に統一 */
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  color: #000; /* テキストを黒に */
+  font-size: 62.5%; /* 1rem = 10px */
 }
 
 body {
   font-size: 1.5em;
   line-height: 1.6;
+  color: #000;
   max-width: 800px;
   margin: 0 auto;
   padding: 25px;
-  background-color: #d3d3d3;
+  background-color: #f0f0f0; /* 中央の本文エリアは少し明るいグレーでもOK */
 }
+
 
 /* -------------------------
    見出し・テキスト
